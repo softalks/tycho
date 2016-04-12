@@ -11,10 +11,10 @@
       <id>tycho-snapshots</id>
       <url>https://repo.eclipse.org/content/repositories/tycho-snapshots/</url>
       <releases>
-			  <enabled>true</enabled>
+	<enabled>true</enabled>
       </releases>
       <snapshots>
-			  <enabled>true</enabled>
+	<enabled>true</enabled>
       </snapshots>
     </pluginRepository>
   </pluginRepositories>
