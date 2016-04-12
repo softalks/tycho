@@ -21,6 +21,10 @@
 
   </repositories>
 
+    <modules>
+        <module>releng/com.softalks.tycho.bundle</module>
+    </modules>
+
   <build>
     <plugins>
       <plugin>
