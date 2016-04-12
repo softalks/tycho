@@ -20,12 +20,14 @@
   </modules>
 
   <build>
-    <plugin>
-      <groupId>org.eclipse.tycho</groupId>
-      <artifactId>tycho-maven-plugin</artifactId>
-      <version>0.24.0</version>
-      <extensions>true</extensions>
-    </plugin>
+    <plugins>
+      <plugin>
+        <groupId>org.eclipse.tycho</groupId>
+        <artifactId>tycho-maven-plugin</artifactId>
+        <version>0.24.0</version>
+        <extensions>true</extensions>
+      </plugin>
+    </plugins>
   </build>
   
 </project>
