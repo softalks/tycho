@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Pilot Bundle
-Bundle-SymbolicName: com.softalks.pilot.bundle
+Bundle-SymbolicName: com.softalks.tycho.bundle
 Bundle-Version: 1.0.0.qualifier
-Bundle-Activator: com.softalks.pilot.internal.Activator
+Bundle-Activator: com.softalks.tycho.internal.Activator
 Bundle-Vendor: SOFTALKS
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Import-Package: org.osgi.framework;version="[1.8.0,2.0.0)"
