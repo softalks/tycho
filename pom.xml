@@ -1,49 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
-	
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>com.softalks.tycho</groupId>
-  <artifactId>com.softalks.tycho.parent</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
-  <packaging>pom</packaging>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.softalks.tycho</groupId>
+    <artifactId>com.softalks.tycho.parent</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <!--
+    <pluginRepositories>
+        <pluginRepository>
+            <id>tycho-snapshots</id>
+            <url>https://repo.eclipse.org/content/repositories/tycho-snapshots/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </pluginRepository>
+    </pluginRepositories>
+    -->
+    <repositories>
+        <repository>
+            <id>luna</id>
+            <url>http://download.eclipse.org/releases/luna</url>
+            <layout>p2</layout>
+        </repository>
+    </repositories>
 
-  <!--
-  <pluginRepositories>
-     <pluginRepository>
-      <id>tycho-snapshots</id>
-      <url>https://repo.eclipse.org/content/repositories/tycho-snapshots/</url>
-      <releases>
-	<enabled>true</enabled>
-      </releases>
-      <snapshots>
-	<enabled>true</enabled>
-      </snapshots>
-    </pluginRepository>
-  </pluginRepositories>
-  -->
-  
-  <repositories>
-    <repository>
-      <id>luna</id>
-      <url>http://download.eclipse.org/releases/luna</url>
-      <layout>p2</layout>
-    </repository>
+    <modules>
+        <module>com.softalks.tycho.bundle</module>
+    </modules>
 
-  </repositories>
-
-  <modules>
-    <module>com.softalks.tycho.bundle</module>
-  </modules>
-
-  <build>
-    <plugins>
-      <plugin>
-        <groupId>org.eclipse.tycho</groupId>
-        <artifactId>tycho-maven-plugin</artifactId>
-        <version>0.24.0</version>
-        <extensions>true</extensions>
-      </plugin>
-    </plugins>
-  </build>
-  
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.eclipse.tycho</groupId>
+                <artifactId>tycho-maven-plugin</artifactId>
+                <version>0.24.0</version>
+                <extensions>true</extensions>
+            </plugin>
+        </plugins>
+    </build>
 </project>
