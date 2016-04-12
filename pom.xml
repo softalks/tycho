@@ -6,6 +6,19 @@
   <version>1.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
 
+  <pluginRepositories>
+     <pluginRepository>
+      <id>tycho-snapshots</id>
+      <url>https://repo.eclipse.org/content/repositories/tycho-snapshots/</url>
+      <releases>
+			  <enabled>true</enabled>
+      </releases>
+      <snapshots>
+			  <enabled>true</enabled>
+      </snapshots>
+    </pluginRepository>
+  </pluginRepositories>
+
   <repositories>
     <repository>
       <id>luna</id>
